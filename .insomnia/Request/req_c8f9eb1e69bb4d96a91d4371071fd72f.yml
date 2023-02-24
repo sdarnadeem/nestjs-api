@@ -1,0 +1,29 @@
+_id: req_c8f9eb1e69bb4d96a91d4371071fd72f
+type: Request
+parentId: fld_8da3086098744d4c8a48dd224ce90701
+modified: 1677222188354
+created: 1677164747682
+url: "{{ _.url }}/auth/signin"
+name: Signin
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email" : "sdarnadeem@gmail.com",
+    	"password": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677164913898.6406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

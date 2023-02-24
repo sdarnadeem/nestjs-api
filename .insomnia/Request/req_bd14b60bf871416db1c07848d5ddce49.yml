@@ -1,0 +1,29 @@
+_id: req_bd14b60bf871416db1c07848d5ddce49
+type: Request
+parentId: fld_8da3086098744d4c8a48dd224ce90701
+modified: 1677237132711
+created: 1677231288608
+url: "{{ _.url }}/users/me"
+name: Get a User
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1acd4ee91aad47ef8317a3f691d2fc3b
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoic2Rhcm5hZGVlbUBnbWFpbC5jb20iLCJpYXQiOjE2NzcyMzcxMDksImV4cCI6MTY3NzIzODAwOX0.QcWHw16pNPmIsCXk2GGgsv4wT3263WdbUzg1ah4Ppyw
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoic2Rhcm5hZGVlbUBnbWFpbC5jb20iLCJpYXQiOjE2NzcyMzcxMDksImV4cCI6MTY3NzIzODAwOX0.QcWHw16pNPmIsCXk2GGgsv4wT3263WdbUzg1ah4Ppyw
+  disabled: false
+metaSortKey: -1677231288608
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

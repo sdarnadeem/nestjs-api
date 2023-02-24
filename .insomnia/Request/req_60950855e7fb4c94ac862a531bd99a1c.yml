@@ -1,0 +1,29 @@
+_id: req_60950855e7fb4c94ac862a531bd99a1c
+type: Request
+parentId: fld_8da3086098744d4c8a48dd224ce90701
+modified: 1677222917252
+created: 1677164938665
+url: "{{ _.url }}/auth/signup"
+name: Singup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "email" : "nasyxnadeem@gmail.com",
+    "password": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677164913848.6406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
